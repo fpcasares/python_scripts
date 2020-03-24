@@ -15,7 +15,7 @@ co_msg = "This is the body of the email"
 
 def send_email():
     msg = MIMEText(co_msg)
-    msg['Subject'] = EMAIL_SUBJECT + "Company - Service at appointmentTime"
+    msg['Subject'] = EMAIL_SUBJECT
     msg['From'] = EMAIL_FROM 
     msg['To'] = EMAIL_TO
     debuglevel = True
